@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Q-Project</title>
-</head>
-<body>
-  <h1>Hello World!</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q-Project</title>
+    <!-- Thương Hiệu -->
+    <link rel="shortcut icon" type="image/png" href="./assets/img/Q-icon.png" />
+    <!-- Reset CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <!-- Support media query for IE Responsive -->
+    <!--[if lte IE 9]>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"
+        integrity="sha512-qWVvreMuH9i0DrugcOtifxdtZVBBL0X75r9YweXsdCHtXUidlctw7NXg5KVP3ITPtqZ2S575A0wFkvgS2anqSA=="
+        crossorigin="anonymous"
+      ></script
+    ><![endif]-->
+    <link rel="stylesheet" href="./assets/css/base_q.css" />
+    <link rel="stylesheet" href="./assets/css/main_q.css" />
+  </head>
+  <body>
+    <div id="app" class="app">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#" class="nav-item_link">
+                <img
+                  class="nav-item_icon"
+                  src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/world-white.svg"
+                />
+                Languages
+              </a>
+            </li>
+            <li class="nav_item"><a href="#" class="nav-item_link">EN</a></li>
+            <li class="nav_item"><a href="#" class="nav-item_link">ES</a></li>
+            <li class="nav_item">
+              <a href="#" class="nav-item_link">
+                <img
+                  class="nav-item_icon"
+                  src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/share-white.svg"
+                />
+                Our Social</a
+              >
+            </li>
+          </ul>
+
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#" class="nav-item_link">
+                <img
+                  class="nav-item_icon"
+                  src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/star-white.svg"
+                />
+                Tour Packages
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav-item_link">
+                <img
+                  class="nav-item_icon"
+                  src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/pin-white.svg"
+                />
+                Contact Us
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="banner"></div>
+
+        <div class="packages"></div>
+
+        <div class="the_best"></div>
+
+        <div class="articles"></div>
+      </main>
+
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
