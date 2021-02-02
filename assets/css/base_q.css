@@ -1,0 +1,15 @@
+:root {
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6rem; /*16px*/
+  box-sizing: border-box;
+}
