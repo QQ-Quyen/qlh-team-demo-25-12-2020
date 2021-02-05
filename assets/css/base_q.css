@@ -13,3 +13,27 @@ html {
   line-height: 1.6rem; /*16px*/
   box-sizing: border-box;
 }
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.bg_linear-blue {
+  background: linear-gradient(to right, #85cdca 0%, #3ab2b3 100%);
+}
+
+.bg_linear-orange {
+  background: linear-gradient(to right, #e8a87c 0%, #e27d60 100%);
+}
+
+.bg-blue {
+  background-color: #85cdca;
+}
+
+.bg-orange {
+  background-color: #e8a87c;
+}
